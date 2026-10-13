@@ -1,0 +1,22 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "LaunchToken",
+    "name": "Bankers In Control",
+    "symbol": "BIC",
+    "decimals": 18
+  },
+  "contracts": [
+    {
+      "contract": "CharterClaim",
+      "constructorArgs": ["$token"]
+    }
+  ],
+  "pool": {
+    "pairedCurrency": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Bankers In Control (BIC) on Robinhood Chain, paired with IMD. No website. LaunchToken mints the fixed supply to the factory. The launch transaction must send 10% to the BIC/IMD pool, 10% to the swarm distributor, and 80% (800,000,000 BIC) to the deployed contract named CharterClaim. These transfers are the launch system's responsibility; constructors and manifest notes do not execute allocations. CharterClaim has no owner, admin, initializer, or withdrawal function. It fixes the Founding Charter at 0x69101f92427376fa80476a997d024cf9dc3eae39 and eligible IDs at 1 through 1032. Each ID receives an integer-rounded share of the allocation: 10% to its current holder upon the first claim, then the remainder to that recorded claimant once their total Charter balance is zero, including after revocation or burning. Unclaimed amounts and rounding dust remain locked. The factory supplies the pool initialization guard and swarm distributor; neither is a project contract. The deployer derives the effective opening price from the launch policy."
+}
