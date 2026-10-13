@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-10-13T04:45:15.407Z",
+  "export": "/tmp/bic-site-Kv74J3/dist",
+  "tests": [
+    {
+      "name": "Static subpath, mobile first action, responsive layouts and local fonts",
+      "passed": true
+    },
+    {
+      "name": "No-wallet guidance, native dialog keyboard trap, Escape and focus return",
+      "passed": true
+    },
+    {
+      "name": "ID validation: empty, zero, above maximum, decimals and valid upper boundary",
+      "passed": true
+    },
+    {
+      "name": "FAQ disclosures, anchor navigation, clipboard and reduced motion",
+      "passed": true
+    },
+    {
+      "name": "Wallet connection rejection recovers without claiming connection",
+      "passed": true
+    },
+    {
+      "name": "Wrong network, add-chain fallback and switching",
+      "passed": true
+    },
+    {
+      "name": "Wrong Charter owner",
+      "passed": true
+    },
+    {
+      "name": "Already claimed ID",
+      "passed": true
+    },
+    {
+      "name": "Burned or unminted ID",
+      "passed": true
+    },
+    {
+      "name": "10% review and wallet rejection, no approval requested",
+      "passed": true
+    },
+    {
+      "name": "10% transaction calldata, pending state and receipt-confirmed success",
+      "passed": true
+    },
+    {
+      "name": "90% before first claim",
+      "passed": true
+    },
+    {
+      "name": "90% wrong claimant",
+      "passed": true
+    },
+    {
+      "name": "90% holds any Charter",
+      "passed": true
+    },
+    {
+      "name": "90% already paid",
+      "passed": true
+    },
+    {
+      "name": "90% zero-balance release uses claimRest and confirms expected payout",
+      "passed": true
+    },
+    {
+      "name": "Account change invalidates a previous eligible result",
+      "passed": true
+    },
+    {
+      "name": "Eligibility is re-read before wallet submission",
+      "passed": true
+    },
+    {
+      "name": "Underfunded reserve blocks wallet submission",
+      "passed": true
+    },
+    {
+      "name": "Reverted receipt and unexpected claim log never show success",
+      "passed": true
+    },
+    {
+      "name": "Network outage and deployment mismatch disable claims, retry recovers",
+      "passed": true
+    },
+    {
+      "name": "Axe accessibility audit: initial, lookup error, wallet dialog, eligible and review",
+      "passed": true
+    },
+    {
+      "name": "200% text enlargement preserves reflow and usable controls",
+      "passed": true
+    },
+    {
+      "name": "Live read-only RPC verification and unconnected ID lookup",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "mobile-first-screen.png",
+    "desktop-first-screen.png",
+    "desktop-full.png",
+    "wallet-guidance.png",
+    "keyboard-focus.png",
+    "wrong-network.png",
+    "claim-review.png",
+    "claim-pending.png",
+    "claim-success.png",
+    "rest-locked.png",
+    "rpc-unavailable.png",
+    "text-enlargement.png",
+    "live-read.png"
+  ],
+  "limitations": [],
+  "liveObservation": {
+    "chain": "Robinhood Chain · Contracts verified",
+    "result": "This Charter has no current owner.\n\nIt may be unminted, burned or revoked. An existing Charter must be held before the first claim.\n\nConnect to check your wallet",
+    "reserve": "Claim contract balance: 797,751,937.98 BIC · Read at block 87,242,907. Refresh"
+  }
+}

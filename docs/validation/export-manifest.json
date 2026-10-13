@@ -1,0 +1,42 @@
+{
+  "assets/ccip-D7Kho80t.js": {
+    "bytes": 2610,
+    "sha256": "10b83d0d4d16b44ef91734962856574396f6fb8e27e77124558e5dfb019b8a4e"
+  },
+  "assets/index-B7vtW3Fz.css": {
+    "bytes": 21847,
+    "sha256": "2bbdb005eea3bfa07845d09a1ecb25600288462f56a262077f42b90ac72019b9"
+  },
+  "assets/index-BANcLObg.js": {
+    "bytes": 497379,
+    "sha256": "f1d8af5ae4ce27b0a320813e69409ff1c82793e8026790666f276684210801db"
+  },
+  "favicon.svg": {
+    "bytes": 300,
+    "sha256": "ba26444492fc1f4cc210e281cb45abddb05373b3e95358e2c5e720a5258fa2b2"
+  },
+  "fonts/DM-Sans-LICENSE.txt": {
+    "bytes": 4502,
+    "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7"
+  },
+  "fonts/Fraunces-LICENSE.txt": {
+    "bytes": 4314,
+    "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+  },
+  "fonts/dm-sans-latin.woff2": {
+    "bytes": 36932,
+    "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+  },
+  "fonts/fraunces-latin.woff2": {
+    "bytes": 36620,
+    "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9"
+  },
+  "index.html": {
+    "bytes": 1772,
+    "sha256": "3853fb290f30dea7adb5e881e9c34f8d595f142454f08c0a500cdfd909cef1ba"
+  },
+  "social-card.png": {
+    "bytes": 84665,
+    "sha256": "eafca4acd01f9c49619b057b4186aceff15a6c7847b9d23db14df78201c0cf2c"
+  }
+}

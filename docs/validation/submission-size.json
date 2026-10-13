@@ -1,0 +1,8 @@
+{
+  "limitBytes": 8388608,
+  "candidateFiles": 118,
+  "candidateFileBytes": 3076761,
+  "exportBytes": 690941,
+  "method": "Sum of tracked and nonignored untracked regular file bytes, excluding disposable test/scratch. This records the uncompressed submission tree; no Git bundle was created by the worker.",
+  "underLimit": true
+}
